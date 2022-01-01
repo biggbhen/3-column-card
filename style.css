@@ -8,14 +8,17 @@
 }
 #rentals {
   display: grid;
-  margin: auto;
-  margin-top: 10rem;
+  margin: 9rem auto 0 auto;
+
   grid-template-columns: 1fr 1fr 1fr;
   max-width: 56rem;
-  font-size: 15px;
+}
+p {
+  font-size: 0.9375rem;
 }
 .car {
   padding: 1.2rem;
+  /* border: 1px solid; */
 }
 #sedans {
   background-color: hsl(31, 77%, 52%);
