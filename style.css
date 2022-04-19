@@ -27,17 +27,22 @@
   border-top-right-radius: 0.375rem;
   border-bottom-right-radius: 0.375rem;
 }
+
 h1 {
-  /* margin-left: 1rem; */
-  color: hsl(0, 0%, 95%);
+  color: white;
   font-family: 'Big Shoulders Display', cursive;
 }
 p {
   font-size: clamp(0.8rem, 1vw, 0.9375rem);
   color: hsla(0, 0%, 100%, 0.75);
   line-height: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin: 1rem 0 1.5rem 0;
   font-family: 'Lexend Deca', sans-serif;
+}
+section {
+  /* border: 2px solid white; */
+  height: 50%;
+  margin: 1rem 0 1rem 0;
 }
 .button1 {
   color: hsl(31, 77%, 52%);
@@ -54,8 +59,8 @@ button {
   background-color: white;
   padding: 1rem 1.7rem;
   border: 1px solid white;
-  /* margin-top: 1rem;
-  margin-bottom: 1rem; */
+  /* margin-top: 1rem; */
+  /* margin-bottom: 1rem; */
   transition: background-color 1s ease;
 }
 button:hover {
